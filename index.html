@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samana Theater</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="theater-container">
+        <h1>🎬 Welcome to Samana Theater 🎬</h1>
+        <div class="screen">
+            <video id="trailer" autoplay loop controls>
+                <source src="media/animation.mp4" type="video/mp4" style="width: 700px; height: 400;">
+            </video>
+        </div>
+        <div class="buttons">
+            <button onclick="document.getElementById('trailer').play()">▶ Play Again</button>
+            <button onclick="alert('Rate this movie: ⭐⭐⭐⭐⭐')">⭐ Rate Movie</button>
+        </div>
+    </div>
+
+</body>
+</html>
